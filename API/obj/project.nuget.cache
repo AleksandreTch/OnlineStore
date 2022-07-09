@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "3Ui97cNX5Aatl2vOzO62jfUJe3KQz0BjmwRMkjlZWHIwu3OC35Rj3gcZ3vXfpZ2Ng6exEyxUIHweh/a4JIXF5Q==",
+  "dgSpecHash": "FtfS5kuGpM5ARNawwe0FQWQ/jm+nGOzsxUTqi33vEFVvEo7H3VY0NTJIzJ3dy15EKujMx04tXRZrXi1puiPJFQ==",
   "success": true,
-  "projectFilePath": "d:\\WebProject\\OnlineStore\\API\\API.csproj",
+  "projectFilePath": "D:\\WebProject\\OnlineStore\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\riseo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\riseo\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.6\\microsoft.data.sqlite.core.6.0.6.nupkg.sha512",
     "C:\\Users\\riseo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
     "C:\\Users\\riseo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.6\\microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",
     "C:\\Users\\riseo\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.6\\microsoft.entityframeworkcore.analyzers.6.0.6.nupkg.sha512",
+    "C:\\Users\\riseo\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.6\\microsoft.entityframeworkcore.design.6.0.6.nupkg.sha512",
     "C:\\Users\\riseo\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.6\\microsoft.entityframeworkcore.relational.6.0.6.nupkg.sha512",
     "C:\\Users\\riseo\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\6.0.6\\microsoft.entityframeworkcore.sqlite.6.0.6.nupkg.sha512",
     "C:\\Users\\riseo\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\6.0.6\\microsoft.entityframeworkcore.sqlite.core.6.0.6.nupkg.sha512",
