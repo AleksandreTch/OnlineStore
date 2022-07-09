@@ -194,6 +194,40 @@ namespace API.Data
                     Type = "Accessories",
                     QuantityInStock = 100  
                 },
+// ---------------------------------S-P-A-K-E-R-S-----------------------
+                new Product
+                {
+                    Name = "JBL Clip 4",
+                    Description = 
+                        "Small speaker that you can take with you anywhere!",
+                    Price = 200,
+                    PictureUrl = "/images/products/JBL-Clip-4.png",
+                    Brand = "JBL",
+                    Type = "Audio",
+                    QuantityInStock = 100  
+                },
+                new Product
+                {
+                    Name = "JBL Charge 5",
+                    Description = 
+                        "Medium size speaker, perfect for the beach and indoors",
+                    Price = 200,
+                    PictureUrl = "/images/products/JBL-Charge-5.png",
+                    Brand = "JBL",
+                    Type = "Audio",
+                    QuantityInStock = 100  
+                },
+                new Product
+                {
+                    Name = "JBL Xtreme",
+                    Description = 
+                        "This speaker is a little large but the sub is worth it!",
+                    Price = 320,
+                    PictureUrl = "/images/products/JBL-Xtreme.png",
+                    Brand = "JBL",
+                    Type = "Audio",
+                    QuantityInStock = 100  
+                },
             };
 
             foreach (var product in products)
