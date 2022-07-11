@@ -122,7 +122,7 @@ namespace API.Data
                     Description = 
                         "Type C to Wall with type c to type c",
                     Price = 50,
-                    PictureUrl = "/images/products/brick-03.png",
+                    PictureUrl = "/images/products/brick-04.png",
                     Brand = "Samsung",
                     Type = "Accessories",
                     QuantityInStock = 100  
@@ -166,7 +166,7 @@ namespace API.Data
                     Name = "Apple Aux Headphones",
                     Description = 
                         "Small compact earphones for everyday use",
-                    Price = 50,
+                    Price = 20,
                     PictureUrl = "/images/products/headphones-05.png",
                     Brand = "Apple",
                     Type = "Accessories",
