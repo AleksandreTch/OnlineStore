@@ -20,7 +20,7 @@ namespace API.Data
                     Name = "iPhone Charging Cord",
                     Description = 
                         "Type C to lightning charging cord.",
-                    Price = 25,
+                    Price = 2499,
                     PictureUrl = "/images/products/cord-01.png",
                     Brand = "Apple",
                     Type = "Accessories",
@@ -31,7 +31,7 @@ namespace API.Data
                     Name = "iPhone Charging Cord",
                     Description = 
                         "Type A to lightning charging cord.",
-                    Price = 25,
+                    Price = 2499,
                     PictureUrl = "/images/products/cord-02.png",
                     Brand = "Apple",
                     Type = "Accessories",
@@ -42,7 +42,7 @@ namespace API.Data
                     Name = "Samsung Charging Cord",
                     Description = 
                         "Type C to type C charging cord.",
-                    Price = 30,
+                    Price = 2999,
                     PictureUrl = "/images/products/cord-03.png",
                     Brand = "Belkin",
                     Type = "Accessories",
@@ -53,7 +53,7 @@ namespace API.Data
                     Name = "Samsung Charging Cord",
                     Description = 
                         "Type A to type C charging cord.",
-                    Price = 30,
+                    Price = 2999,
                     PictureUrl = "/images/products/cord-04.png",
                     Brand = "Belkin",
                     Type = "Accessories",
@@ -65,7 +65,7 @@ namespace API.Data
                     Name = "iPhone dongle",
                     Description = 
                         "Aux to lightning adapter",
-                    Price = 20,
+                    Price = 1999,
                     PictureUrl = "/images/products/dongle-01.png",
                     Brand = "Belkin",
                     Type = "Accessories",
@@ -76,7 +76,7 @@ namespace API.Data
                     Name = "Samsung dongle",
                     Description = 
                         "Aux to C adapter",
-                    Price = 30,
+                    Price = 2999,
                     PictureUrl = "/images/products/dongle-02.png",
                     Brand = "Belkin",
                     Type = "Accessories",
@@ -88,7 +88,7 @@ namespace API.Data
                     Name = "Apple Charging Brick",
                     Description = 
                         "Type C to Wall",
-                    Price = 25,
+                    Price = 2499,
                     PictureUrl = "/images/products/brick-01.png",
                     Brand = "Apple",
                     Type = "Accessories",
@@ -99,7 +99,7 @@ namespace API.Data
                     Name = "Apple Charging Brick & The Cord",
                     Description = 
                         "Type C to Wall with type C to lightning cord",
-                    Price = 50,
+                    Price = 4999,
                     PictureUrl = "/images/products/brick-02.png",
                     Brand = "Apple",
                     Type = "Accessories",
@@ -110,7 +110,7 @@ namespace API.Data
                     Name = "Samsung Chargin Brick ",
                     Description = 
                         "Type C to Wall",
-                    Price = 20,
+                    Price = 1999,
                     PictureUrl = "/images/products/brick-03.png",
                     Brand = "Samsung",
                     Type = "Accessories",
@@ -121,7 +121,7 @@ namespace API.Data
                     Name = "Samsung Chargin Brick & The Cord ",
                     Description = 
                         "Type C to Wall with type c to type c",
-                    Price = 50,
+                    Price = 4999,
                     PictureUrl = "/images/products/brick-04.png",
                     Brand = "Samsung",
                     Type = "Accessories",
@@ -133,7 +133,7 @@ namespace API.Data
                     Name = "Aux Headphones",
                     Description = 
                         "Small compact earphones for everyday use",
-                    Price = 30,
+                    Price = 2999,
                     PictureUrl = "/images/products/headphones-01.png",
                     Brand = "Skull Candy",
                     Type = "Accessories",
@@ -144,7 +144,7 @@ namespace API.Data
                     Name = "Aux Headphones",
                     Description = 
                         "Small compact earphones for everyday use",
-                    Price = 50,
+                    Price = 4999,
                     PictureUrl = "/images/products/headphones-02.png",
                     Brand = "Skull Candy",
                     Type = "Accessories",
@@ -155,7 +155,7 @@ namespace API.Data
                     Name = "Aux Headphones",
                     Description = 
                         "Small compact earphones for everyday use",
-                    Price = 15,
+                    Price = 1499,
                     PictureUrl = "/images/products/headphones-03.png",
                     Brand = "AKG",
                     Type = "Accessories",
@@ -166,7 +166,7 @@ namespace API.Data
                     Name = "Apple Aux Headphones",
                     Description = 
                         "Small compact earphones for everyday use",
-                    Price = 20,
+                    Price = 1999,
                     PictureUrl = "/images/products/headphones-05.png",
                     Brand = "Apple",
                     Type = "Accessories",
@@ -177,7 +177,7 @@ namespace API.Data
                     Name = "Apple Lightning Headphones",
                     Description = 
                         "Small compact earphones for everyday use",
-                    Price = 30,
+                    Price = 2999,
                     PictureUrl = "/images/products/headphones-06.png",
                     Brand = "Apple",
                     Type = "Accessories",
@@ -188,7 +188,7 @@ namespace API.Data
                     Name = "Type C Headphones",
                     Description = 
                         "Small compact earphones for everyday use",
-                    Price = 30,
+                    Price = 2999,
                     PictureUrl = "/images/products/headphones-07.png",
                     Brand = "Skullcandy",
                     Type = "Accessories",
@@ -200,7 +200,7 @@ namespace API.Data
                     Name = "JBL Clip 4",
                     Description = 
                         "Small speaker that you can take with you anywhere!",
-                    Price = 200,
+                    Price = 9999,
                     PictureUrl = "/images/products/JBL-Clip-4.png",
                     Brand = "JBL",
                     Type = "Audio",
@@ -211,7 +211,7 @@ namespace API.Data
                     Name = "JBL Charge 5",
                     Description = 
                         "Medium size speaker, perfect for the beach and indoors",
-                    Price = 200,
+                    Price = 19999,
                     PictureUrl = "/images/products/JBL-Charge-5.png",
                     Brand = "JBL",
                     Type = "Audio",
@@ -222,7 +222,7 @@ namespace API.Data
                     Name = "JBL Xtreme",
                     Description = 
                         "This speaker is a little large but the sub is worth it!",
-                    Price = 320,
+                    Price = 31999,
                     PictureUrl = "/images/products/JBL-Xtreme.png",
                     Brand = "JBL",
                     Type = "Audio",
