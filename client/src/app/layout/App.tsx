@@ -10,6 +10,7 @@ import ErrorTesting from "../../features/ErrorTesting/ErrorTesting";
 import HomePage from "../../features/home/HomePage";
 import Header from "./Header";
 import 'react-toastify/dist/ReactToastify.css';
+import BasketPage from "../../features/basket/BasketPage";
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
           <Route path='/about' component={AboutPage}/>
           <Route path='/contact' component={ContactPage}/>
           <Route path='/debugging' component={ErrorTesting}/>
+          <Route path='/basket' component={BasketPage}/>
       </Container>
     </ThemeProvider>
   );
