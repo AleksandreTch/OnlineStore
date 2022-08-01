@@ -4,8 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-#nullable disable
-
 namespace API.Data.Migrations
 {
     [DbContext(typeof(StoreContext))]
@@ -14,7 +12,8 @@ namespace API.Data.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "6.0.6");
+            modelBuilder
+                .HasAnnotation("ProductVersion", "5.0.10");
 
             modelBuilder.Entity("API.Entities.Basket", b =>
                 {
@@ -23,6 +22,12 @@ namespace API.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("BuyerId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ClientSecret")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PaymentIntentId")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -42,7 +47,7 @@ namespace API.Data.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Quanitiy")
+                    b.Property<int>("Quantity")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
@@ -74,6 +79,9 @@ namespace API.Data.Migrations
 
                     b.Property<long>("Price")
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("PublicId")
+                        .HasColumnType("TEXT");
 
                     b.Property<int>("QuantityInStock")
                         .HasColumnType("INTEGER");

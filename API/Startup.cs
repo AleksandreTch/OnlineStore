@@ -1,8 +1,10 @@
-using System;
-using API.Controllers.Middleware;
 using API.Data;
+using API.Entities;
+using API.Middleware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,7 +21,6 @@ namespace API
         }
 
         public IConfiguration Configuration { get; }
-        public string MyAllowSpecificOrigins { get; private set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -28,13 +29,15 @@ namespace API
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPIv5", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
             });
             services.AddDbContext<StoreContext>(opt => 
             {
                 opt.UseSqlite(Configuration.GetConnectionString("DefaultConnection"));
             });
             services.AddCors();
+            services.AddIdentityCore<User>()
+                .AddRoles<IdentityRole>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,21 +46,18 @@ namespace API
             app.UseMiddleware<ExceptionMiddleware>();
 
             if (env.IsDevelopment())
-            {   
+            {
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPIv5 v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
             }
 
-            //app.UseHttpsRedirection();
-
-            
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
-            app.UseCors(opt =>
+            app.UseCors(opt => 
             {
                 opt.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("http://localhost:3000");
             });
-                     
 
             app.UseAuthorization();
 

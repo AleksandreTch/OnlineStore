@@ -1,7 +1,5 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using API.Entities;
 
 namespace API.Data
@@ -10,11 +8,11 @@ namespace API.Data
     {
         public static void Initialize(StoreContext context)
         {
-            if(context.Products.Any()) return;
+            if (context.Products.Any()) return;
 
             var products = new List<Product>
             {
-// --------------------------------C-O-R-D-S---------------------------
+ // --------------------------------C-O-R-D-S---------------------------
                 new Product
                 {
                     Name = "iPhone Charging Cord",
